@@ -1,0 +1,16 @@
+#box-1{
+    height : 100px;
+    width : 200px;
+    background-color : green;
+    font-size : 10px;
+}
+#box-2{
+    height : 50px;
+    width : 50px;
+    background-color : yellow;
+    margin: 0% 0% 0% 10%;
+    font-size : 2em;
+    /* 2 Time's of the parent's font size */
+    width : 5rem;
+    height : 7.5vh;
+}
