@@ -19,7 +19,7 @@ div {
     width: 100px;
     background-color: aqua;
     border: 2px solid black;
-    display: inline-block;
+    display: inline-block;    
 }
 #box1 {
     position: static;
@@ -28,11 +28,12 @@ div {
 #box2 {
     position: relative;
     background-color: yellow;
-    top: 20px;
-    left: 50px;
+    top:-20px;
+    left:-50px;
+    z-index: 1;
 }
 #box3 {
-    position: sticky;
+    position: absolute;
     background-color: blue;
     top: 150px;
     left: 150px;
@@ -40,5 +41,6 @@ div {
 #box4 {
     position: fixed;
     background-color: pink;
-    top: 0px;
+    top: 50px;
+    z-index: 3;
 }
