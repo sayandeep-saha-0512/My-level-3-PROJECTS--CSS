@@ -14,7 +14,7 @@
     height : 7.5vh;
 } */
 
-div {
+/* div {
     height: 100px;
     width: 100px;
     background-color: aqua;
@@ -43,4 +43,37 @@ div {
     background-color: pink;
     top: 50px;
     z-index: 3;
+} */
+/* 
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;    
 }
+#box1 {
+    background-color: green;
+    background-image: url("Cat-Image.jpg");
+    background-size: cover;
+}
+#box2 {
+    background-color: yellow;
+
+}
+#box3 {
+    background-color: blue;
+}
+#box4 {
+    background-color: pink;
+} */
+ div {
+    height: 100px;
+    width: 100px;
+    background-image: url("Love-Nature-Image.jpg");
+    background-size: cover;
+    color: white;
+    position: fixed;
+    right: 0px;
+    top: 150px;
+ }
